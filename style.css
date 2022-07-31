@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: linear-gradient(to right, #033f63, #28666E);
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+
+    position: relative;
+
+    height: 400px;
+    width: 300px;
+    background-color: white;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.photo-section {
+
+    width: 100%;
+    display: flex;
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    transform: translateY(-50%);
+
+}
+
+.photo {
+    height: 150px;
+    border-radius: 100%;
+
+    border: 2px solid #033f63;
+
+}
+
+.about {
+    text-align: center;
+    padding: 0 30px;
+
+    font-family: sans-serif;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #033f63;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+.social-section {
+    width: 50%;
+
+    position: absolute;
+
+    bottom: 0;
+    transform: translateY(-50px);
+    display: initial;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+
+    color: #033f63;
+    font-size: 25px;
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
